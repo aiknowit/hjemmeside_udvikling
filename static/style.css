@@ -1,0 +1,105 @@
+:root{
+    --primary-color: rgb(249, 249, 249);
+    --secondary-color: rgb(90, 87, 87);
+    --tertiary-color: #82c7a5;
+    --fourth-color: rgb(153, 153, 153);
+    --fifth-color: #5B5B66;
+    --background-color: rgb(13, 13, 13);
+
+}
+html {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--primary-color);
+}
+
+.navbar {
+    color: var(--primary-color);
+    height: 50px;
+    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--background-color);
+}
+
+.navbar:hover {
+    background-color: none;
+}
+
+.card-who {
+    background-color: rgb(18, 18, 18);
+    color: var(--fourth-color);
+    border-radius: .5rem;
+    max-width: 400px;
+    padding: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.profile-image {
+	border-radius: .5rem;
+}
+
+.hero {
+    /*background-image: url('ooorganize.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;*/
+}
+
+
+.title {
+    color: var(--primary-color);
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 1px
+}
+
+.subtitle {
+    color: var(--fourth-color);
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 1px
+}
+
+.bread-text {
+    color: var(--primary-color);
+}
+
+.quotetext {
+    color: var(--tertiary-color)
+}
+
+.is-size-0 {
+    font-size: 5rem;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.second-color {
+    color: var(--secondary-color) !important;
+}
+
+.fourth-color {
+    color: var(--fourth-color) !important;
+}
+
+.fifth-color {
+    color: var(--fifth-color) !important;
+}
+
+.footer {
+    background-color: black;
+}
+
+.pt-12 {
+    padding-top: 6em;
+}
+
+.infobox {
+    background-color: rgb(18, 18, 18);
+    height: 300px;
+    border-radius: .5rem;
+    width: 300px;
+}
